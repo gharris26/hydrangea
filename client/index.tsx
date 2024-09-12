@@ -10,9 +10,6 @@ const queryClient = new QueryClient()
 
 document.addEventListener('DOMContentLoaded', () => {
   createRoot(document.getElementById('app') as HTMLElement).render(
-    /**
-     * TODO: replace domain, clientId, and audience
-     */
     <Auth0Provider
       domain="karaka-2024-georgia.au.auth0.com"
       clientId="1Vv41OYpaCLeAWyIb4xprTNhgzS6bGxh"
